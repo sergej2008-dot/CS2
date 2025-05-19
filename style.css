@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
-
+body{
+    margin: 0;
+}
 
 header {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding-left: 45px;
@@ -81,7 +83,7 @@ p{
     text-decoration: none;
     font-family: "Sofia Sans", sans-serif;
 }
-.yellow{
+.back{
     display: flex;
     flex-direction: column;
     background-color: #FFF118;
@@ -140,7 +142,7 @@ p{
     flex-direction: column;
     gap: 95px;
 }
-.awp_meduza{
+.awp{
     width: 100%;
 }
 .rifles{
@@ -149,6 +151,33 @@ p{
 .knife{
     width: 60%
 }
-
-
+.blue__text{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 35;
+}
+.telegram>img{
+    width: 75px;
+    
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+.red__text{
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 35;
+}
+.green__text{
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 35;
+}
 
